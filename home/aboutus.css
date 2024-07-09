@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    /* position: fixed; */
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.navmain{
+    display: flex;
+    /* border: 5px solid rebeccapurple; */
+    
+}
+
+.navmain img{
+    width: 170px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
+
+.nav{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 1000px;
+    
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    /* border: 2px solid red; */
+
+}
+
+.nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    border: 0.4px  solid #111111;
+    border-top: 0px;
+    border-bottom: 0px;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+.nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+    display: flex;
+    padding: 7px;
+}
+
+.search input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button1{
+    /* margin-top: 20px; */
+    height: 30px;
+    width: 70px;
+    border: 1px solid #999999;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button1:hover{
+    border: 1px solid white;
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+    margin-left: 10px;
+    height: 30px;
+    width: 140px;
+    border: 2px;
+    background-color: orangered;
+    color: white;
+    padding: 14px 28px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;
+    margin-top: 0px;
+    width: 1106px;
+    height: 1500px;
+    margin-left: 70px;
+    /* border: 2px solid red; */
+}
+
+.main .left_main{
+    margin-top: 0px;
+    width: 75%;
+    height: 1407px;
+    /* border: 2px solid red; */
+}
+
+.main .left_main .about{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.main .left_main .as{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.main .left_main .meet{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.main .left_main .team{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.main .left_main .team ul li{
+    margin-bottom: 8px;
+    
+}
+
+
+.main .left_main .team ul li a{
+    text-decoration: none;
+    color: #3388DD;
+}
+
+.button3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 35px;
+    height: 30px;
+    width: 140px;
+    border: 2px;
+    background-color: orangered;
+    color: white;
+    padding: 14px 28px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main .left_main .follow{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 45px;
+    margin-left: 35px;
+}
+
+
+.main .left_main .for{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.main .left_main .socials{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.main .left_main .socials ul li{
+    margin-bottom: 8px;
+    
+}
+
+
+.main .left_main .community_list ul li a{
+    text-decoration: none;
+    color: #3388DD;
+}
+
+.main .left_main .community_list{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+.main .left_main .community_list ul li{
+    margin-bottom: 8px;
+    
+}
+
+
+.main .left_main .socials ul li a{
+    text-decoration: none;
+    color: #3388DD;
+}
+
+.main .right_main{
+    /* border: 2px solid red; */
+    border-left: 1px solid #999999;
+    width: 30%;
+}
+
+.main .right_main .Legal{
+    margin-top: 42px;
+}
+
+.main .right_main .top{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.main .right_main .top p{
+    color: #999999;
+}
+
+.main .right_main .top hr{
+    margin-top: 4px;
+    color: #999999;
+    width: 95%;
+}
+
+.main .right_main .tags{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+
+.main .right_main .tags a{
+    color: #999999;
+    text-decoration: none;
+}
+
+.main .right_main .tags a:hover{
+    color: #111111;
+}
+
+.main .right_main .Copyright{
+    margin-top: 100px;
+}
+

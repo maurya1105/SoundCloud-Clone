@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: aliceblue;
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 1050px;
+    margin: 0px 100px;
+}
+.logo img{
+    height:50px;
+    width: 170px;
+    padding: 10px;
+}
+.img{
+    max-width: fit-content;
+}
+.header2{
+    display: flex;
+    gap: 1em;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 65vh;
+    /* padding-left: 7px; */
+    background-image: url(/images/background.jpeg);
+    background-repeat: no-repeat;
+    margin: 0 100px;
+    margin-bottom: 0px;
+}
+.button1{
+    margin-top: 20px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button2{
+    margin-top: 20px;
+    height: 50px;
+    border: 2px;
+    background-color: orangered;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button3{
+    margin-top: 20px;
+    color: white;
+    height: 50px;
+    border: 2px transparent;
+    background-color: transparent;
+    padding: 14px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button4{
+    width: 150px;
+    height: 35px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mid {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: white;
+    text-align: center;
+
+}
+
+.search{
+    /* border: 2px solid red; */
+    margin: 0px 100px;
+    width: 85%;
+    padding-left: 7px;
+    /* border: none; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search input{
+    height: 40px;
+    width: 50%;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    border: none;
+}
+
+.button5{
+    width: 150px;
+    height: 35px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.hear{
+    /* border: 2px solid red; */
+    width: 85%;
+    padding-left: 7px;
+    margin: 0px 100px;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop_songs{
+    width: 85%;
+    height: 180px;
+    /* margin-top: 15px; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 54px;
+    margin-left: 100px;
+    padding-left: 7px;
+    /* border: 2px solid red; */
+    /* overflow: hidden;
+    white-space: nowrap; */
+    /* overflow-wrap: break-word; */
+    /* overflow-x: auto;
+    scroll-behavior: smooth; */
+}
+
+.pop_songs li{
+    min-width: 100px;
+    height: 200px;
+    list-style-type: none;
+    margin-right: 10px;
+    transition: .3s linear;
+}
+
+.pop_songs li:hover{
+    background: rgba(15, 15, 112, 0.1);
+}
+
+.pop_songs li .img_play{
+    position: relative;
+    width: 136px;
+    height: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop_songs li .img_play img{
+    width: 100%;
+    height: 100%;
+}
+
+.pop_songs li .img_play i{
+    position: absolute;
+    font-size: 50px;
+    cursor: pointer;
+    transition: .3s linear;
+    opacity: 0;
+}
+
+.pop_songs li .img_play i:hover{
+    opacity: 1;
+}
+
+.pop_songs li .title{
+    padding-top: 10px 0px 0px 10px;
+    line-height: 15px;
+    font-size: 13px;
+}
+
+.pop_songs li .title .subtitle{
+    font-size: 10px;
+    color: blue;
+}
+
+.explore{
+    /* margin-top: 40px; */
+    margin: 0px 100px;
+    padding-left: 7px;
+    width: 85%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.button6{
+    width: 203px;
+    height: 40px;
+    padding: 13px 23px;
+    font-size: 14px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.neverstop{
+    position: relative;
+    height: 363px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+    padding-left: 7px;
+    width: 85%;
+    padding-top: 50px;
+
+}
+
+.neverstop img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 1100px;
+}
+
+.neverlisten h3{
+    font-size: 35px;
+    position: absolute;
+    bottom: 280px;
+    right: 50px;
+    /* border: 2px solid red; */
+}
+
+.neverlisten p{
+    font-size: 22px;
+    position: absolute;
+    bottom: 160px;
+    right: 90px;
+    /* border: 2px solid red; */
+
+}
+
+
+
+.call{
+    position: relative;
+    /* height: 100%; */
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+    padding-left: 7px;
+    /* width: 85%; */
+
+}
+
+.call img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.calling h3{
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    /* border: 2px solid red; */
+}
+
+.calling p{
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    /* border: 2px solid red; */
+
+}
+
+.button7{
+    position: absolute;
+    margin-top: 20px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    left: 100px;
+    bottom: 20px;
+}
+
+.end{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    height: 500px;
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    margin: 0px 100px;
+    gap: 10px;
+}
+
+.endmid{
+    position: absolute;
+    padding: 20px;
+    /* border: 10px solid red; */
+    left: 25%;
+    top: 25%;
+
+}
+
+.endmid h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.endmid h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+    margin-top: 20px;
+    height: 50px;
+    border: 2px;
+    background-color: orangered;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.endmid h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.already{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button9{
+
+    height: 35px;
+    width: 65px;
+    border: 2px solid #ccc;
+    background-color: transparent;
+    color: black;
+    /* padding: 14px 28px; */
+    font-size: 13.28px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.already button{
+    margin-top: 20px;
+}
+
+.footer{
+    /* display: block; */
+    position:relative;
+    top: 90%;
+    left: 40px;
+    /* border: 2px solid red; */
+    
+    
+}
+.footer hr{
+    width: 90%;
+    size: 20;
+
+}
+
+.footcnts{
+    /* color: red; */
+    margin-top: 5px;
+    display: flex;
+    gap: 2px;
+}
+
+.footcnts a{
+    text-decoration: none;
+    font-style: normal;
+    font-size: small;
+    color: #ccc;
+}
+
+.footcnts a:hover{
+    color: #a3a3a3;
+}
+
+.footcnts p{
+    color: #ccc;
+}
+
+.lang{
+    margin-top: 2px;
+    display: flex;
+    font-size: small;
+    gap: 4px;
+}
+
+.lang a{
+    text-decoration: none;
+    color: blue;
+}
+
+.lang a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.lang p{
+    cursor: pointer;
+}

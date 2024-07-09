@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    height: 92px;
+    /* border: 2px solid red; */
+}
+
+.nav img{
+    /* border: 2px solid red; */
+    cursor: pointer;
+    margin-left: 100px;
+    height: 90px;
+    width: 120px;
+    
+}
+
+.btn1{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    color: #666;
+}
+
+.btn2{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 350px;
+}
+
+.btn2:hover{
+    color: #666;
+}
+
+.full_page{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 100%;
+    margin-top: 65px;
+    margin-left: 115px;
+}
+
+.full_page .manage{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.full_page .introducting{
+    margin-top: 5px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.full_page .by_tracy{
+    margin-top: 35px;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.full_page .SOUNDCLOUD_art{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.full_page .today{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .at_soundcloud{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .soundcloud{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .with{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .what{
+    font-size:60px;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .fresh{
+    font-size:30px;
+    margin-left: 65px;
+    margin-top: 8px;
+
+}
+
+.full_page .as{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .plans{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.full_page .for{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .for a{
+    color: black;
+}
+
+.full_page .for a:hover{
+    text-decoration: none;
+}
+
+.full_page .you{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .an{
+    font-size:30px;
+    margin-left: 65px;
+    margin-top: 40px;
+
+}
+
+.full_page .our{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 8px;
+}
+
+.full_page .the{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+
+.full_page .stats{
+    width: 50%;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.full_page .thats{
+    font-size:30px;
+    margin-left: 65px;
+    margin-top: 25px;
+
+}
+
+.full_page .stay{
+    font-size: 27px;
+    font-weight: normal;
+    margin-left: 65px;
+    margin-top: 8px;
+}
+
+.full_page .sundclud{
+    width: 550px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.full_page .share{
+    display: flex;
+    gap: 30px;
+    font-size:30px;
+    margin-left: 65px;
+    margin-top: 60px;
+
+}
+
+.full_page .share .brands{
+    cursor: pointer;
+    display: flex;
+    gap: 35px;
+}
+
+.line1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.line1 .line2{
+    margin-top: 100px;
+    width: 90%;
+    height: 8px;
+    background-color: black;
+}
+
+.before_footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.before_footer h3{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 1px;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.title h1{
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn3{
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.btn3:hover{
+    background-color: white;
+    color: black;
+}
+
+.low_foot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+.low_foot .logo img{
+    width: 350px;
+    height: 350px;
+}
+
+.low_foot .icons{
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.foot_cnts{
+    margin-top: 30px;
+    margin-left: 75px;
+    display: flex;
+    gap: 25px;
+    padding-bottom: 30px;
+}
+
+.foot_cnts a{
+    text-decoration: none;
+    color: #666;
+}
+
+.foot_cnts a:hover{
+    color: white;
+}
